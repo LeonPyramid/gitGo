@@ -1,0 +1,8 @@
+#!/bin/bash
+
+git add -A
+echo "Your commit name:"
+read  com
+git commit -m "${com}"
+git pull
+git push
